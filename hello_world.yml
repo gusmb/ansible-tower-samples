@@ -5,3 +5,9 @@
       debug:
         msg: "Hello World!"
 
+    - name: Create artifact
+      set_stats:
+        data:
+          test_artifact: 31
+        per_host: no
+
